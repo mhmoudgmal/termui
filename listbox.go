@@ -14,6 +14,7 @@ package termui
 type Item struct {
 	ItemVal string
 	Text    string
+	Data    map[string]string // in-memory data.
 }
 
 type ListBox struct {
